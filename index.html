@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<!--
+  PREVIEW BUILD — NOT LICENSED FOR PRODUCTION OR COMMERCIAL USE.
+  This code and design are © 2026 velowebsites-studio. All rights reserved.
+  Provided to Bright Details for evaluation purposes only. No license to
+  use, copy, deploy, or modify this site is granted until a signed
+  agreement and payment are received.
+-->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -242,6 +249,9 @@
     .foot-grid p{margin-left:auto; margin-right:auto;}
     .social-row{align-items:center;}
   }
+
+  .preview-banner{position:fixed; left:0; right:0; bottom:0; z-index:999; background:rgba(7,16,33,.95); backdrop-filter:blur(4px); color:#B9C6DA; font-size:11.5px; text-align:center; padding:9px 16px; border-top:1px solid rgba(255,255,255,.1);}
+  .preview-banner strong{color:#fff;}
 </style>
 </head>
 <body>
@@ -567,6 +577,8 @@
   </div>
   <div class="foot-bottom">&copy; 2026 Bright Details</div>
 </footer>
+
+<div class="preview-banner"><strong>Preview build</strong> &mdash; not licensed for production or commercial use. &copy; 2026 velowebsites-studio. All rights reserved.</div>
 
 <script>
   const header = document.getElementById('siteHeader');
