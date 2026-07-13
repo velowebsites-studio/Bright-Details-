@@ -72,8 +72,8 @@
   .btn::after, .btn-outline::after{content:''; position:absolute; top:0; left:-60%; width:35%; height:100%; background:linear-gradient(120deg, transparent, rgba(255,255,255,.4), transparent); transform:skewX(-20deg); transition:left .6s ease;}
   .btn:hover::after, .btn-outline:hover::after{left:130%;}
 
-  header{position:sticky; top:0; z-index:50; background:transparent; transition:background .3s ease, box-shadow .3s ease, border-color .3s ease; border-bottom:1px solid transparent;}
-  header.scrolled{background:var(--navy); box-shadow:0 8px 26px rgba(0,0,0,.28); border-color:rgba(255,255,255,.08);}
+  header{position:sticky; top:0; z-index:50; background:var(--navy); transition:box-shadow .3s ease, border-color .3s ease; border-bottom:1px solid rgba(255,255,255,.08);}
+  header.scrolled{box-shadow:0 8px 26px rgba(0,0,0,.28);}
   header .wrap{display:flex; align-items:center; justify-content:space-between; padding-top:16px; padding-bottom:16px;}
   .logo{display:flex; align-items:center; gap:10px;}
   .logo img{height:44px; width:auto;}
